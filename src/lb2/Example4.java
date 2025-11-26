@@ -15,7 +15,7 @@ public class Example4 {
         if (5 <= num && num <= 10){
             System.out.printf("Число %d больше 5 и меньше 10 включительно \n", num);
         } else {
-            System.out.printf("Число %d НЕ больше 5 и НЕ меньше 10 включительно \n", num);
+            System.out.printf("Число %d НЕ больше 5 или НЕ меньше 10 включительно \n", num);
         }
         in.close();
     }

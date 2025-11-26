@@ -16,7 +16,7 @@ public class Example2 {
         if (num % 5 == 2 && num % 7 == 1){
             System.out.printf("Число %d делится на 5 с остатком 2 и на 7 с остатком 1 \n", num);
         } else {
-            System.out.printf("Число %d НЕ делится на 5 с остатком 2 и НЕ делится на 7 с остатком 1 \n", num);
+            System.out.printf("Число %d НЕ делится на 5 с остатком 2 или НЕ делится на 7 с остатком 1 \n", num);
         }
         in.close();
     }

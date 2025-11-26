@@ -16,7 +16,7 @@ public class Example3 {
         if (num % 4 == 0 && num >= 10){
             System.out.printf("Число %d делится на 4 и не меньше 10 \n", num );
         } else {
-            System.out.printf("Число %d НЕ делится на 4 и меньше 10 \n", num );
+            System.out.printf("Число %d НЕ делится на 4 или меньше 10 \n", num );
         }
         in.close();
     }
