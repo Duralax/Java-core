@@ -29,6 +29,7 @@ public class timus_1820 {
         }
 
         System.out.printf("%d бифштексов можно обжарить за %d \n", n, minutes);
+
         in.close();
     }
 }

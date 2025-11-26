@@ -60,6 +60,7 @@ public class timus_1785 {
         }
 
         System.out.printf("%d это %s \n", num, result_str);
+
         in.close();
     }
 }
