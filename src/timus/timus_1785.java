@@ -28,38 +28,37 @@ public class timus_1785 {
         String result_str = null;
         short num;
 
-        System.out.println("Введите число: ");
         num = in.nextShort();
 
-        if (num >= 1 & num <= 4){
+        if (num >= 1 && num <= 4){
             result_str = "few";
         }
-        else if (num >= 5 & num <= 9){
+        else if (num >= 5 && num <= 9){
             result_str = "several";
         }
-        else if (num >= 10 & num <= 19){
+        else if (num >= 10 && num <= 19){
             result_str = "pack";
         }
-        else if (num >= 20 & num <= 49){
+        else if (num >= 20 && num <= 49){
             result_str = "lots";
         }
-        else if (num >= 50 & num <= 99){
+        else if (num >= 50 && num <= 99){
             result_str = "horde";
         }
-        else if (num >= 100 & num <= 249){
+        else if (num >= 100 && num <= 249){
             result_str = "throng";
         }
-        else if (num >= 250 & num <= 499){
+        else if (num >= 250 && num <= 499){
             result_str = "swarm";
         }
-        else if (num >= 500 & num <= 999){
+        else if (num >= 500 && num <= 999){
             result_str = "zounds";
         }
         else if (num >= 1000){
             result_str = "legion";
         }
 
-        System.out.printf("%d это %s \n", num, result_str);
+        System.out.println(result_str);
 
         in.close();
     }
