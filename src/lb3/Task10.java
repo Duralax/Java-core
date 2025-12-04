@@ -4,6 +4,9 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 
+//Напишите программу, в которой создается целочисленный массив,
+// заполняется случайными числами и после этого значения элементов в массиве сортируются в порядке убывания значений.
+
 public class Task10 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
