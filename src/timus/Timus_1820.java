@@ -10,7 +10,7 @@ import java.util.Scanner;
 //Результат
 //Выведите минимальное количество минут, за которое повар сможет приготовить n бифштексов.
 
-public class timus_1820 {
+public class Timus_1820 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 

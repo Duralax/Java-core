@@ -14,7 +14,7 @@ import java.util.Scanner;
 //результат
 //450
 
-public class timus_1607 {
+public class Timus_1607 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 

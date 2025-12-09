@@ -10,7 +10,7 @@ import java.util.Scanner;
 //Результат
 //Выведите вес необходимого для обработки сульфида тория в нанограммах.
 
-public class task_1293 {
+public class Task_1293 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
