@@ -1,0 +1,3 @@
+Текст для примера 9
+Hello world!
+Example 9
