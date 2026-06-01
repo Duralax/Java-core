@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Task_1654 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         String s = sc.nextLine();
         char[] charArr = s.toCharArray();
 

@@ -18,7 +18,7 @@ public class Task2 {
         }
 
         try {
-            System.out.println("Введите номер столбца: ");
+            System.out.println("Введите номер столбца начиная с 1: ");
             int colNum = sc.nextInt();
 
             if (colNum > matrix[0].length || colNum < 1){

@@ -11,15 +11,16 @@ public class Task3 {
 
             int size = sc.nextInt();
             byte[] byteArr = new byte[size];
-            for (int i = 0; i < size; i++) {
-                System.out.println("Введите элемент byte: ");
-                int value = sc.nextInt();
-                if (value < -128 || value > 127) {
-                    throw new RuntimeException("Элемент должен быть типа byte");
+            try{
+                for (int i = 0; i < size; i++) {
+                    System.out.println("Введите элемент byte: ");
+                    byte value = sc.nextByte();
+                    byteArr[i] = value;
                 }
-
-                byteArr[i] = (byte) value;
+            }catch (InputMismatchException e){
+                throw new RuntimeException("Элемент должен быть типа byte");
             }
+
             int sum = 0;
             System.out.println("Массив byte: ");
             for (byte i : byteArr) {
@@ -33,12 +34,11 @@ public class Task3 {
             System.out.println("Сумма элементов byte: " + sum);
 
         } catch (InputMismatchException e) {
-            System.out.println("Ошибка введено не целое число");
+            System.out.println("Ошибка размер массива должен быть int");
         }catch (NegativeArraySizeException e){
             System.out.println("Размер массива должен быть положительным числом");
         } catch (RuntimeException e) {
             System.out.println(e.getMessage());
-
         }finally {
             sc.close();
         }

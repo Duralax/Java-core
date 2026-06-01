@@ -1,6 +1,5 @@
 package lb13;
 
-// Поменял местами catch (RuntimeException e) и catch (Exception e)
 
 public class FixedExample6 {
     public static void main(String[] args) {
